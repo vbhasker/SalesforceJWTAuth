@@ -23,9 +23,9 @@ public class JwtExample {
 
             //Create the JWT Claims Object
             String[] claimArray = new String[4];
-            claimArray[0] = "3MVG9nkapUnZB56F09eWjOnkRyNRSiM3YFp2z4df357b1eIw0hM5We8zIvm598BgN7mjb4z.iSmEw5TdJ4dSz";
-            claimArray[1] = "vinodh@developer.com";
-            claimArray[2] = "https://login.salesforce.com";
+            claimArray[0] = "[client_id]";
+            claimArray[1] = "[username]";
+            claimArray[2] = "https://login.salesforce.com [or] https://test.salesforce.com";
             claimArray[3] = Long.toString((System.currentTimeMillis() / 1000) + 300);
             //claimArray[4]=<JTI>
 
